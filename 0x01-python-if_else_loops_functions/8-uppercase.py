@@ -5,5 +5,5 @@ def uppercase(str):
             asciiNum = ord(str[i]) - 32
         else:
             asciiNum = ord(str[i])
-        print("{}".format(asciiNum), end='')
+        print("{}".format(chr(asciiNum)), end='')
     print()
