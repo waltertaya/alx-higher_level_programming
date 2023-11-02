@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """Print the sum of all arguments."""
+    """Print all names hidden in the compiled module hidden_4.pyc."""
     import hidden_4
     
     text = dir(hidden_4)
-    for i in range(len(text)):
-        if text[i][0] != '__':
+    for i in range(0, len(text)):
+        if text[i][0] != '_':
             print(text[i])
-    
