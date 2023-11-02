@@ -6,6 +6,6 @@ if __name__ == "__main__":
     
     text = dir(hidden_4)
     for i in range(len(text)):
-        if text[i][0] != '_':
+        if text[i][0] != '__':
             print(text[i])
     
