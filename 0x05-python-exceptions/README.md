@@ -8,3 +8,4 @@
 
 - isinstance() function in python - returns true or false
 - e.g isinstance(exception, ValueError) returns true beacuse of exception
+- The finally block will be executed no matter if the try block raises an error or not.
