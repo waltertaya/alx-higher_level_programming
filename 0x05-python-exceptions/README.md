@@ -5,6 +5,7 @@
   2. TypeError exception
   3. IndexError exception
   4. FileNotFound exception
+  5. NameError exception
 
 - isinstance() function in python - returns true or false
 - e.g isinstance(exception, ValueError) returns true beacuse of exception
