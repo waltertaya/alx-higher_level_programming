@@ -3,7 +3,11 @@
 
 '''class definition of a Square that defines a square by: (based on 2-square.py)'''
 
+
+
 class Square:
+    
+    
     '''class definition of a Square that defines a square by: (based on 2-square.py)'''
     def __init__(self, size=0):
         '''Instantiation with optional size'''
