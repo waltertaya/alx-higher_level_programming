@@ -4,6 +4,7 @@
 
 class Rectangle:
     """Rectangle class"""
+    
     def __init__(self, width=0, height=0):
         """__init__ constructor for Rectangle class
 
@@ -73,5 +74,4 @@ class Rectangle:
 
         if value < 0:
             raise ValueError("height must be >=0")
-
         self.__height = value
