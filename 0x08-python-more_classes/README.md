@@ -16,3 +16,6 @@
 
 - The `__str__` method
   Instance method that returns an “informal” and nicely printable string representation of an instance
+
+- The `__doc__` method
+  The string documentation of an object (based on docstring)
