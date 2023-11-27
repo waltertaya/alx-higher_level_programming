@@ -19,3 +19,6 @@
 
 - The `__doc__` method
   The string documentation of an object (based on docstring)
+
+- The `__del__` method
+  Instance method called when an instance is deleted
