@@ -6,21 +6,18 @@ class Rectangle:
     '''class rectangle'''
     
     def __init__(self, width=0, height=0):
-        '''private instance attribute width and height'''
-        
+        '''private instance attribute width and height'''   
         self.width = width
         self.height = height
         
     @property
     def width(self):
         '''getter for width to retrieve width'''
-        
         return self.__width
     
     @width.setter
     def width(self, value):
         '''Setter for width'''
-        
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         elif value < 0:
@@ -30,7 +27,6 @@ class Rectangle:
     @property
     def height(self):
         '''getter for width to retrieve width'''
-        
         return self.__height
     
     @height.setter
