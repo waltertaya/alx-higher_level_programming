@@ -3,22 +3,18 @@
 ## 9.12. Cloning lists
 
 If we want to modify a list and also keep a copy of the original, we need to be able to make a copy of the list itself, not just the reference. This process is sometimes called cloning, to avoid the ambiguity of the word copy.
-`>>> a = [1, 2, 3]
->>> b = a[:]
->>> print b
+`>>> a = [1, 2, 3] >>> b = a[:] >>> print b
 [1, 2, 3]`
 
 ## enumerations
 
 `numbers = [1, 2, 3, 4, 5]
-
 for index in range(len(numbers)):
     numbers[index] = numbers[index]**2`
 
 same as
 
 `numbers = [1, 2, 3, 4, 5]
-
 for index, value in enumerate(numbers):
     numbers[index] = value**2`
 
@@ -63,35 +59,35 @@ string.join is the inverse of string.split. It takes two arguments: a list of st
 
 ## 9.21. Glossary
 
-aliases
+1. aliases -
 Multiple variables that contain references to the same object.
-clone
+2. clone -
 To create a new object that has the same value as an existing object. Copying a reference to an object creates an alias but doesn’t clone the object.
-delimiter
+3. delimiter -
 A character or string used to indicate where a string should be split.
-element
+4. element -
 One of the values in a list (or other sequence). The bracket operator selects elements of a list.
-index
+5. index -
 An integer variable or value that indicates an element of a list.
-list
+6. list -
 A named collection of objects, where each object is identified by an index.
-list traversal
+7. list traversal -
 The sequential accessing of each element in a list.
-modifier
+8. modifier -
 A function which changes its arguments inside the function body. Only mutable types can be changed by modifiers.
-mutable type
+9. mutable type -
 A data type in which the elements can be modified. All mutable types are compound types. Lists are mutable data types; strings are not.
-nested list
+10. nested list -
 A list that is an element of another list.
-object
+11. object -
 A thing to which a variable can refer.
-pure function
+12. pure function -
 A function which has no side effects. Pure functions only make changes to the calling program through their return values.
-sequence
+13. sequence -
 Any of the data types that consist of an ordered set of elements, with each element identified by an index.
-side effect
+14. side effect -
 A change in the state of a program made by calling a function that is not a result of reading the return value from the function. Side effects can only be produced by modifiers.
-step size
+15. step size -
 The interval between successive elements of a linear sequence. The third (and optional argument) to the range function is called the step size. If not specified, it defaults to 1.
-test-driven development (TDD)
+16. test-driven development (TDD) -
 A software development practice which arrives at a desired feature through a series of small, iterative steps motivated by automated tests which are written first that express increasing refinements of the desired feature. (see the Wikipedia article on Test-driven development for more information.)
