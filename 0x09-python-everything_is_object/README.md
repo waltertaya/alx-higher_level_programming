@@ -91,3 +91,9 @@ A change in the state of a program made by calling a function that is not a resu
 The interval between successive elements of a linear sequence. The third (and optional argument) to the range function is called the step size. If not specified, it defaults to 1.
 16. test-driven development (TDD) -
 A software development practice which arrives at a desired feature through a series of small, iterative steps motivated by automated tests which are written first that express increasing refinements of the desired feature. (see the Wikipedia article on Test-driven development for more information.)
+
+## 2.4.1   The Object Metaphor
+
+nest = list(suits)
+`from unicodedata import lookup
+[lookup('WHITE ' + s.upper() + ' SUIT') for s in suits] ['♡', '♢', '♤', '♧']`
