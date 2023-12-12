@@ -1,6 +1,6 @@
 # 0x0C-python-almost_a_circle
 
-## In this project, you will review everything about Python:
+## In this project, you will review everything about Python
 
 - Import
 - Exceptions
