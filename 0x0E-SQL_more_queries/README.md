@@ -123,7 +123,7 @@ The project covers the following topics and tasks:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/0x0E-SQL_more_queries.git
+    git clone https://github.com/waltertaya/0x0E-SQL_more_queries.git
     ```
 
 2. Navigate to the project directory:
