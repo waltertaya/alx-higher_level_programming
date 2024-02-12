@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-const array = parseInt(process.argv);
+const args = process.argv.slice(2).map(Number);
 
-if (array.length < 4) {
+if (args.length < 2) {
   console.log(0);
 } else {
-  array.sort((a, b) => a - b);
-  console.log(array[array.length - 2]);
+  args.sort((a, b) => b - a); // Sort in descending order
+  console.log(args[1]);
 }
