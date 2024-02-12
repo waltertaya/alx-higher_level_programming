@@ -9,4 +9,6 @@ argv.forEach((value, index) => {
 
 if (count === 2) {
   console.log('No argument');
+} else {
+  console.log(argv[2]);
 }
