@@ -1,17 +1,21 @@
 #!/usr/bin/node
-const dict = require('./101-data').dict;
+const { dict } = require('./101-data');
 
-const totalist = Object.entries(dict);
-const vals = Object.values(dict);
-const valsUniq = [...new Set(vals)];
-const newDict = {};
-for (const j in valsUniq) {
-  const list = [];
-  for (const k in totalist) {
-    if (totalist[k][1] === valsUniq[j]) {
-      list.unshift(totalist[k][0]);
+// Function to invert the dictionary
+function invertDictionary (dict) {
+  const invertedDict = {};
+  for (const key in dict) {
+    const value = dict[key];
+    if (!invertedDict[value]) {
+      invertedDict[value] = [];
     }
+    invertedDict[value].push(key);
   }
-  newDict[valsUniq[j]] = list;
+  return invertedDict;
 }
-console.log(newDict);
+
+// Inverting the dictionary
+const invertedDict = invertDictionary(dict);
+
+// Printing the inverted dictionary
+console.log(invertedDict);
