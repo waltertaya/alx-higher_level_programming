@@ -81,7 +81,7 @@ This curriculum focuses on building foundational knowledge in JavaScript, partic
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/username/alx-higher_level_programming.git
+git clone https://github.com/waltertaya/alx-higher_level_programming.git
 ```
 
 2. Change directory to the project folder:
