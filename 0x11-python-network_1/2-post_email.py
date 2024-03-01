@@ -8,7 +8,6 @@ if __name__ == '__main__':
     import sys
     url = sys.argv[1]
     email = sys.argv[2]
-    print("Your email is:", email)
     values = {'email': email}
     data = urllib.parse.urlencode(values)
     data = data.encode('ascii')
